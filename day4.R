@@ -122,7 +122,7 @@ p_out <-
                   caption = "Source: Biodiversity Center of Japan, Ministry of the Environment
                   #30daymapchallenge @uribo")
 
-ggsave(here::here("figures/day05_np_daisetsuzan_hexagons.png"),
+ggsave(here::here("figures/day04_np_daisetsuzan_hexagons.png"),
        p_out,
        width = 10,
        height = 6,
