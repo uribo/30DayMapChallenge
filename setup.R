@@ -9,6 +9,12 @@ renv::install("ropenscilabs/rnaturalearthhires")
 
 renv::install(c("lemon", "rcartocolor"))
 
-renv::install("uribo/jpmesh")
-renv::install("uribo/jpnp")
-renv::install("crazycapivara/h3forr")
+
+# Day4 --------------------------------------------------------------------
+install("uribo/jpmesh")
+install("uribo/jpnp")
+install("crazycapivara/h3forr")
+
+# Day5 --------------------------------------------------------------------
+install(c("rerddap", "tidync", "cptcity"))
+install("nsgrantham/ggdark")
