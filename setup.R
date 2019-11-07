@@ -18,3 +18,13 @@ install("crazycapivara/h3forr")
 # Day5 --------------------------------------------------------------------
 install(c("rerddap", "tidync", "cptcity"))
 install("nsgrantham/ggdark")
+
+
+# Day6 --------------------------------------------------------------------
+install("plotly")
+install("wilkelab/cowplot")
+
+
+# Day7 --------------------------------------------------------------------
+install(c("data.table", "ggpointdensity"))
+
