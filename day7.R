@@ -55,7 +55,7 @@ p_out <-
   labs(
     title = glue::glue("<span style='font-family: \"Font Awesome 5 Free Solid\"'>&#63460;</span> Fire in Brazil in 2018"),
     subtitle = glue::glue("Source: NASA, Fire Information for Resource Management System MODIS"),
-    caption = glue::glue("Base map: Natural Earth, River data: The World Bank<br><i>#30daymapchallenge</i> <span style='font-family: \"Font Awesome 5 Brands\"; color:#D35172'>&#61595;</span> uribo/30daymapchallenge <span style='font-family: \"Font Awesome 5 Brands\"; color:#D35172'>&#61593;</span> @uribo<br>"))
+    caption = glue::glue("Base map: Natural Earth, River data: The World Bank<br><i>#30daymapchallenge</i> <span style='font-family: \"Font Awesome 5 Brands\"; color:#D35172'>&#61595;</span> uribo/30daymapchallenge <span style='font-family: \"Font Awesome 5 Brands\"; color:#D35172'>&#61593;</span> @u_ribo<br>"))
 ggsave(here::here("figures/day07_brazil_fire.png"),
        p_out,
        width = 8,
