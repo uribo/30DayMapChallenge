@@ -28,3 +28,6 @@ install("wilkelab/cowplot")
 # Day7 --------------------------------------------------------------------
 install(c("data.table", "ggpointdensity"))
 
+# Day8 --------------------------------------------------------------------
+install(c("ggrepel", "biscale"))
+
