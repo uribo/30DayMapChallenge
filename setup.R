@@ -10,6 +10,10 @@ renv::install("ropenscilabs/rnaturalearthhires")
 renv::install(c("lemon", "rcartocolor"))
 
 
+# Day1 --------------------------------------------------------------------
+install(c("protolite", "ggimage", "slippymath"))
+
+
 # Day4 --------------------------------------------------------------------
 install("uribo/jpmesh")
 install("uribo/jpnp")
@@ -30,4 +34,9 @@ install(c("data.table", "ggpointdensity"))
 
 # Day8 --------------------------------------------------------------------
 install(c("ggrepel", "biscale"))
+
+
+# Day9 --------------------------------------------------------------------
+renv::install(c("geofacet", "gghighlight"))
+
 
