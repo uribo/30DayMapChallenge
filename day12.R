@@ -38,8 +38,8 @@ p_base <-
   annotation_map_tile(type = "stamenbw", zoomin = -1) +
   theme_void() +
   coord_sf() +
-  theme(plot.caption = element_markdown(size = 6, lineheight = 1.1)) +
-  labs(title = "Okayama GTFS Busstop",
+  theme(plot.caption = element_markdown(size = 8, lineheight = 1.1)) +
+  labs(title = "Okayama GTFS Busstop {}",
        subtitle = "Data: Okaden Bus (http://www.okayama-kido.co.jp/bus/)",
        caption = glue::glue("Map tiles by Stamen Design, under CC BY 3.0. Data by \U00a9 OpenStreetMap contributors<br><i>#30daymapchallenge</i> <span style='font-family: \"Font Awesome 5 Brands\"; color:#000000'>&#61595;</span> uribo/30daymapchallenge <span style='font-family: \"Font Awesome 5 Brands\"; color:#55acee'>&#61593;</span> @u_ribo<br>"))
 
@@ -51,11 +51,11 @@ p_anime <-
                  group = interaction(stop_lon, stop_lat)),
              show.legend = FALSE) +
   gganimate::transition_time(arrival_time) +
-  shadow_mark(size = 4)
+  shadow_mark(size = 2)
 anim_save("figures/day12_bus.gif",
           p_anime,
-          width = 800,
-          height = 800,
+          width = 500,
+          height = 500,
           duration = 100,
-          fps = 4)
+          fps = 8)
 
